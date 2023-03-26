@@ -2,14 +2,10 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-
-NEZHA_SERVER=probe.nezha.org # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-NEZHA_PORT=5555
-NEZHA_KEY=2620ZAP1A0Pk6hXEys
+UUID=${UUID:-'5792b853-7326-42f1-80a7-690d7f99ba55'}
 
 ARGO_TOKEN=eyJhIjoiOWNj... # Argo 固定域名隧道的两个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_DOMAIN=daki.domain.tk
+ARGO_DOMAIN=sparta.daki.cc
 
 generate_config() {
   cat > config.json << EOF
